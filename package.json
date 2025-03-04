@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-project-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx --watch src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Samuel Pires",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^22.13.9",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
